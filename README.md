@@ -3,7 +3,7 @@
 #### Overview
 
 This is an implementation of the paper [Learning Photography Aesthetics with Deep CNNs](https://arxiv.org/pdf/1707.03981.pdf)
-in Pytorch.
+in PyTorch.
 By pooling the feature maps of the output of each ResNet block, we are able to use
 gradCAM to visualize which parts of the image contribute to the aesthetics of the image.
 
