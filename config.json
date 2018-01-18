@@ -1,0 +1,25 @@
+{
+    "batch_size": 16,
+    "n_epochs": 20,
+    "loss_weights": {
+        "Content": 0.5,
+        "Object": 0.5,
+        "Symmetry": 0.0,
+        "RuleOfThirds": 0.5,
+        "Light": 0.5,
+        "MotionBlur": 0.0,
+        "DoF": 0.5,
+        "ColorHarmony": 0.5,
+        "BalancingElements": 0.5,
+        "VividColor": 0.5,
+        "score": 1.0,
+        "Repetition": 0.0
+    },
+    "save_path":"checkpoint/001",
+    "train_path": "data/train.csv",
+    "val_path": "data/val.csv",
+    "img_folder_path": "images/",
+    "use_cuda": true,
+    "fc_lr": 1e-5,
+    "fine_tune_lr": 1e-6
+}
