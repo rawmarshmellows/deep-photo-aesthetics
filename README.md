@@ -6,7 +6,9 @@ This is an implementation of the paper [Learning Photography Aesthetics with Dee
 By pooling the feature maps of the output of each ResNet block, we are able to use
 gradCAM to visualize which parts of the image contribute each aesthetics factor
 
-They have a Keras implementation here
+They have a Keras implementation [here](https://github.com/gautamMalu/Aesthetic_attributes_maps) though the code is 
+quite messy, and there were a few bugs I had to fix with their visualization code
+
 #### Setup
 
 To install the environment (assuming you have Anaconda installed) just do:
