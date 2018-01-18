@@ -2,11 +2,12 @@
 
 #### Overview
 
-This is an implementation of the paper [Learning Photography Aesthetics with Deep CNNs](https://arxiv.org/pdf/1707.03981.pdf).
+This is an implementation of the paper [Learning Photography Aesthetics with Deep CNNs](https://arxiv.org/pdf/1707.03981.pdf)
+in Pytorch.
 By pooling the feature maps of the output of each ResNet block, we are able to use
-gradCAM to visualize which parts of the image contribute each aesthetics factor
+gradCAM to visualize which parts of the image contribute to the aesthetics of the image.
 
-They have a Keras implementation [here](https://github.com/gautamMalu/Aesthetic_attributes_maps) though the code is 
+The authors of the paper have a Keras implementation [here](https://github.com/gautamMalu/Aesthetic_attributes_maps) though the code is 
 quite messy, and there were a few bugs I had to fix with their visualization code
 
 #### Setup
