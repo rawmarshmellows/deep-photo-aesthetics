@@ -81,6 +81,6 @@ Here are the top 10 rated images using images scraped from Dior's Instagram acco
 
 Here are the bottom 10 rated images using images scraped from Dior's Instagram account:
 
-[image5]: ./README_images/dior_top_10.png
+[image5]: ./README_images/dior_bottom_10.png
 
 ![alt_text][image5]
