@@ -100,12 +100,14 @@ def train(train, val, model, loss_weights, n_epochs, use_cuda, save_path,
 
             # Update gradients
             optimizer.zero_grad()
-
+            
+            # The two methods below are equivalent!
+            
             # Method 1:
             torch.autograd.backward(loss_by_attribute, weights)
 
             # Method 2:
-            # mashed_loss = loss_by_attribute * weights
+            # masked_loss = loss_by_attribute * weights
             # masked_loss = torch.sum(masked_loss)
             # masked_loss.backward()
 
